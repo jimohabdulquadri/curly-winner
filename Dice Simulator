@@ -1,0 +1,9 @@
+import random
+
+while True:
+
+    rolled = random.randint(1,6)
+
+    print("The dice rolled and you got: ", rolled)
+
+    input("Press enter key to roll again.")
